@@ -19,7 +19,7 @@ Here's a step-by-step guide to setting up a static website using these services:
    - Enter the "Index document" (usually "index.html") and, optionally, an "Error document."
    - Save the configuration.
 
-4. **Request an SSL Certificate using ACM (Optional)**:
+4. **Request an SSL Certificate using ACM**:
    - Go to the ACM service in the AWS Management Console.
    - Click on "Request a certificate."
    - Follow the prompts to request a certificate for your website domain (e.g., www.example.com).
@@ -43,4 +43,4 @@ Click on Certicate, click create record, once certificate is validated and issue
 7. **Wait for DNS Propagation**:
    - DNS changes may take some time to propagate across the internet. Wait for the changes to take effect, which usually takes a few minutes to an hour.
 
-After following these steps, your static website should be accessible through your domain name and served securely through CloudFront. Keep in mind that S3 and CloudFront may have some costs associated with usage, but they are generally cost-effective for hosting static websites with low to moderate traffic.
+After following these steps, your static website should be accessible through your domain name and served securely through CloudFront. 
